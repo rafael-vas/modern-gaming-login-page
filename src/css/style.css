@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(to right,rgb(0, 119, 231), #00a7ad);
+    background: linear-gradient(to right,rgb(0, 119, 231), #5500c5);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
     position: relative;
     padding: 2rem 3rem 3rem 3rem;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .37);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .47);
 }
 
 .g-card-form{
@@ -50,7 +50,7 @@ body {
 
 .g-card-header p{
     margin-top: 0;
-    font-size: 8pt;
+    font-size: 9pt;
     padding-bottom: 5px;
     opacity: .7;
 }
@@ -90,7 +90,7 @@ body {
 
 .form-item-other span {
     font-size: 8.5pt;
-    margin-left: -5.1rem;
+    margin-left: -7rem;
 }
 
 .form-item-other a {
@@ -101,6 +101,14 @@ body {
 
 .form-item-other a:hover {
     text-decoration: underline;
+}
+
+.form-item-other input{
+    accent-color: black;
+}
+
+.form-item-other input:hover{
+    cursor: pointer;
 }
 
 
